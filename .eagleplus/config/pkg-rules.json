@@ -1,12 +1,13 @@
 {
   "includes": [
-    "src/**",
-    "assets/**",
-    "_locales/**"
+    "dist/assets/**",
+    "dist/index.html",
+    "dist/vite.svg",
+    "manifest.json",
+    "logo.png"
   ],
   "ignore": [
-    "dist/**",
     "node_modules/**"
   ],
-  "i18n" : true
+  "i18n" : false
 }
